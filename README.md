@@ -5,6 +5,7 @@
 
 ### Plugins
 - [Zsh Auto Suggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [fzf](https://github.com/junegunn/fzf)
 
 ### Theme
 - [Powerlevel0k](https://github.com/romkatv/powerlevel10k)
