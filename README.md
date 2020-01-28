@@ -19,3 +19,6 @@
 
 ## Docker
 - [dockly](https://github.com/lirantal/dockly)
+
+## Alias
+- `alias k=kubectl`
