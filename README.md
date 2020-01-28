@@ -16,3 +16,6 @@
 ## K8s
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - [kubectx](https://github.com/ahmetb/kubectx)
+
+## Docker
+- [dockly](https://github.com/lirantal/dockly)
