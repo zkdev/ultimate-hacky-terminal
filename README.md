@@ -12,3 +12,7 @@
 
 ## Font
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+
+## K8s
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- [kubectx](https://github.com/ahmetb/kubectx)
