@@ -28,3 +28,4 @@
 #### 8. Set alias
 - `alias k=kubectl`
 - `alias ll=ls -afhl`
+- `alias wstorm=open -a /path/to/webstorm `
