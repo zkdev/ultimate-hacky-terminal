@@ -23,3 +23,4 @@
 
 ## Alias
 - `alias k=kubectl`
+- `alias ll=ls -afhl`
