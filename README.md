@@ -1,26 +1,30 @@
 # Ultimate Hacky Terminal
 
-## Shell
+## Installation
+
+#### 1. Update and Upgrade
+`sudo apt-get install update -y && sudo apt-get install upgrade -y`
+
+#### 2. Install "Oh-My-Zsh Shell"
 - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-### Plugins
+#### 3. Install plugins
 - [Zsh Auto Suggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [fzf](https://github.com/junegunn/fzf)
 
-### Theme
+#### 4. Install and apply theme
 - [Powerlevel0k](https://github.com/romkatv/powerlevel10k)
 
-
-## Font
+#### 5. Install and apply font
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-## K8s
+#### 6. Install K8s tools
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - [kubectx](https://github.com/ahmetb/kubectx)
 
-## Docker
+#### 7. Install Docker tools
 - [dockly](https://github.com/lirantal/dockly)
 
-## Alias
+#### 8. Set alias
 - `alias k=kubectl`
 - `alias ll=ls -afhl`
