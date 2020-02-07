@@ -17,9 +17,12 @@ Install fonts and themes
 - [Powerlevel0k](https://github.com/romkatv/powerlevel10k)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-Super usefull command line tools
+Super useful command line tools
 - [dockly](https://github.com/lirantal/dockly)
 clear and handy docker container manager
+
+- [kubebox](https://github.com/astefanutti/kubebox)
+pretty much dockly for k8s
 
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 necessary for kubernetes
