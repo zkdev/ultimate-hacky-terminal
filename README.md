@@ -46,3 +46,4 @@ handy json viewer
 - `alias ports="lsof -i -P -n | grep LISTEN"`
 - `alias dev=cd ~/dev`
 - `alias nano=nvim` 
+- `alias kubely="/path/to/kubebox"`
