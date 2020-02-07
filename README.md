@@ -39,6 +39,9 @@ useful search tool
 - [fx](https://github.com/antonmedv/fx)
 handy json viewer
 
+- [hacker-quotes](https://github.com/oldratlee/hacker-quotes)
+not only because its fun also because you hear some names ;)
+
 #### Alias
 - `alias k=kubectl`
 - `alias ll=ls -afhl`
