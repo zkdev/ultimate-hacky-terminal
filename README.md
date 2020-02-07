@@ -33,3 +33,4 @@
 - `alias ll=ls -afhl`
 - `alias wstorm=open -a /path/to/webstorm `
 - `alias ports="lsof -i -P -n | grep LISTEN"`
+- `alias dev=cd ~/dev`
