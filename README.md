@@ -18,14 +18,17 @@
 #### 5. Install and apply font
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-#### 6. Install K8s tools
+#### 6. Install CLI Tools
+- [neovim](https://github.com/neovim/neovim)
+
+#### 7. Install K8s tools
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - [kubectx](https://github.com/ahmetb/kubectx)
 
-#### 7. Install Docker tools
+#### 8. Install Docker tools
 - [dockly](https://github.com/lirantal/dockly)
 
-#### 8. Set alias
+#### 9. Set alias
 - `alias k=kubectl`
 - `alias ll=ls -afhl`
 - `alias wstorm=open -a /path/to/webstorm `
