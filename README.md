@@ -1,36 +1,45 @@
 # Ultimate Hacky Terminal
 
 ## Installation
-
-#### 1. Update and Upgrade
+First of all make sure all packages are up to date.
 `sudo apt-get install update -y && sudo apt-get install upgrade -y`
 
-#### 2. Install "Oh-My-Zsh Shell"
+Install the `ZSH Shell` and make sure it is your default shell.
+`chsh -s /bin/zsh`
+
+Install the `Oh-My-Zsh` Framework on top.
 - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-#### 3. Install plugins
+Here are some usefull plugins for `Oh-My-Zsh`
 - [Zsh Auto Suggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [fzf](https://github.com/junegunn/fzf)
 
-#### 4. Install and apply theme
+Install fonts and themes
 - [Powerlevel0k](https://github.com/romkatv/powerlevel10k)
-
-#### 5. Install and apply font
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-#### 6. Install CLI Tools
-- [neovim](https://github.com/neovim/neovim)
-
-#### 7. Install K8s tools
-- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-- [kubectx](https://github.com/ahmetb/kubectx)
-
-#### 8. Install Docker tools
+Super usefull command line tools
 - [dockly](https://github.com/lirantal/dockly)
+clear and handy docker container manager
 
-#### 9. Set alias
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+necessary for kubernetes
+
+- [kubectx](https://github.com/ahmetb/kubectx)
+fast switch between your kubectls
+
+- [neovim](https://github.com/neovim/neovim)
+basically the future of vim - use vim if you spend serious time inside the terminal
+
+- [fzf](https://github.com/junegunn/fzf)
+useful search tool
+
+- [fx](https://github.com/antonmedv/fx)
+handy json viewer
+
+#### Alias
 - `alias k=kubectl`
 - `alias ll=ls -afhl`
 - `alias wstorm=open -a /path/to/webstorm `
 - `alias ports="lsof -i -P -n | grep LISTEN"`
 - `alias dev=cd ~/dev`
+- `alias nano=nvim` 
