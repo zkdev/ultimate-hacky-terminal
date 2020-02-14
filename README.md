@@ -17,6 +17,9 @@ Install fonts and themes
 - [Powerlevel0k](https://github.com/romkatv/powerlevel10k)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
+Basically best IDE
+- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+
 Super useful command line tools
 - [dockly](https://github.com/lirantal/dockly)
 clear and handy docker container manager
@@ -50,3 +53,4 @@ not only because its fun also because you hear some names ;)
 - `alias dev=cd ~/dev`
 - `alias nano=nvim` 
 - `alias kubely="/path/to/kubebox"`
+- `alias p3="python3"`
