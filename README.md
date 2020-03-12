@@ -54,3 +54,9 @@ not only because its fun also because you hear some names ;)
 - `alias nano=nvim` 
 - `alias kubely="/path/to/kubebox"`
 - `alias p3="python3"`
+
+
+#### Misc
+Display the current kubectx as iTerm2 Badge:
+- `source ~/.iterm2_shell_integration.zsh`
+- append `iterm2_print_user_vars() {iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)}` to `.zshrc`
