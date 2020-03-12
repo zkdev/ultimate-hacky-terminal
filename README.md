@@ -60,3 +60,6 @@ not only because its fun also because you hear some names ;)
 Display the current kubectx as iTerm2 Badge:
 - `source ~/.iterm2_shell_integration.zsh`
 - append `iterm2_print_user_vars() {iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)}` to `.zshrc`
+
+Install GnuCoreUtils with g-prefix
+- `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep\n`
