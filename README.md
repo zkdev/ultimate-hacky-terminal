@@ -42,6 +42,9 @@ useful search tool
 - [fx](https://github.com/antonmedv/fx)
 handy json viewer
 
+- [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+smart syntax highlighter for shell
+
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes)
 not only because its fun also because you hear some names ;)
 
