@@ -67,4 +67,4 @@ Display the current kubectx as iTerm2 Badge:
 - append `iterm2_print_user_vars() {iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)}` to `.zshrc`
 
 Install GnuCoreUtils with g-prefix
-- `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep\n`
+- `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep`
