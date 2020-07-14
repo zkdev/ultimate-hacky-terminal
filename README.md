@@ -4,6 +4,10 @@
 First of all make sure all packages are up to date.<br>
 `sudo apt-get install update -y && sudo apt-get install upgrade -y`<br>
 
+#### iTerm2 ####
+Install [iTerm2](https://www.iterm2.com/)
+
+#### ZSH Shell ####
 Install the `ZSH Shell` and make sure it is your default shell.<br>
 `chsh -s /bin/zsh`
 
