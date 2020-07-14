@@ -46,14 +46,12 @@ handy json viewer
 smart syntax highlighter for shell
 
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes)<br>
-not only because its fun also because you hear some names ;)
+why not
 
 #### Alias
 - `alias k=kubectl`
 - `alias ll=ls -afhl`
-- `alias wstorm=open -a /path/to/webstorm `
 - `alias ports="lsof -i -P -n | grep LISTEN"`
-- `alias dev=cd ~/dev`
 - `alias nano=nvim` 
 - `alias kubely="/path/to/kubebox"`
 - `alias p3="python3"`
