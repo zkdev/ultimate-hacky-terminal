@@ -59,6 +59,7 @@ why not
 - `alias nano=nvim` 
 - `alias kubely="/path/to/kubebox"`
 - `alias p3="python3"`
+- `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
 
 
 #### Misc
