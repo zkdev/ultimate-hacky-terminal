@@ -62,6 +62,15 @@ why not
 - `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
 
 
+#### Fix gnupg
+Errors regarding gnupg might occurre once you want to sign your commits using gpg keys.
+- `brew upgrade gnupg`
+- `brew link --overwrite gnupg`
+- `brew install pinentry-mac`
+- `echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf`
+- `killall gpg-agent`
+
+
 #### Misc
 Display the current kubectx as iTerm2 Badge:
 - `source ~/.iterm2_shell_integration.zsh`<br>
