@@ -54,7 +54,7 @@ why not
 
 #### Alias
 - `alias k=kubectl`
-- `alias ll=ls -afhl`
+- `alias ll=ls -color -ahl`
 - `alias ports="lsof -i -P -n | grep LISTEN"`
 - `alias nano=nvim` 
 - `alias kubely="/path/to/kubebox"`
