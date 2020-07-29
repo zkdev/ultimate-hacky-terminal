@@ -73,8 +73,11 @@ Errors regarding gnupg might occurre once you want to sign your commits using gp
 
 #### Misc
 Display the current kubectx as iTerm2 Badge:
-- `source ~/.iterm2_shell_integration.zsh`<br>
-- append `iterm2_print_user_vars() {iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)}` to `.zshrc`
+- install `iTerm2 Shell Integration`: `wget https://iterm2.com/misc/install_shell_integration.sh`
+- to prevent misconfiguration adapt the script do directly detect `zsh` as your shell (line 10)
+- execute install script (`chmod +x ...`)
+- append `iterm2_print_user_vars() {iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)}` to `.zshrc` right after `source iterm_shell_integration`
+- go to iTerm > Preferences > Profiles > General and set `\(user.kube_context)` as badge
 
 Install GnuCoreUtils with g-prefix
 - `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep`
