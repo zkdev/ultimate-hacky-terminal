@@ -40,6 +40,9 @@ fast switch between your kubectls
 - [neovim](https://github.com/neovim/neovim)<br>
 basically the future of vim - use vim if you spend serious time inside the terminal
 
+- [vundle](https://github.com/VundleVim)<br>
+the vim package manager
+
 - [fzf](https://github.com/junegunn/fzf)<br>
 useful search tool
 
