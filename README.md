@@ -64,6 +64,7 @@ why not
 - `alias p3="python3"`
 - `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
 - `alias open="xdg-open"`
+- `alias trim="sed -i 's/[ \t]*$//'"`
 
 
 #### Fix gnupg
