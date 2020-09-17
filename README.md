@@ -67,6 +67,10 @@ why not
 - `alias trim="sed -i 's/[ \t]*$//'"`
 
 
+#### Git Alias
+- `git config --global alias.cp cherry-pick`
+
+
 #### Fix gnupg
 Errors regarding gnupg might occurre once you want to sign your commits using gpg keys.
 - `brew upgrade gnupg`
