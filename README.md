@@ -69,6 +69,7 @@ why not
 
 #### Git Alias
 - `git config --global alias.cp cherry-pick`
+- `git config --global alias.pr 'pull --rebase`
 
 
 #### Fix gnupg
