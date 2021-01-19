@@ -57,6 +57,7 @@ why not
 
 #### Alias
 - `alias k=kubectl`
+- `alias ktx=kubectx`
 - `alias ll=ls -color -ahl`
 - `alias ports="lsof -i -P -n | grep LISTEN"`
 - `alias nano=nvim` 
