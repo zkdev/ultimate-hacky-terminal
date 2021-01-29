@@ -66,6 +66,7 @@ why not
 - `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
 - `alias open="xdg-open"`
 - `alias trim="sed -i 's/[ \t]*$//'"`
+- `alias ggrep="git grep"`
 
 
 #### Git Alias
