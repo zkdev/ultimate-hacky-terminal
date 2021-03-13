@@ -37,7 +37,7 @@ necessary for kubernetes
 - [kubectx](https://github.com/ahmetb/kubectx)<br>
 fast switch between your kubectls
 
-- [httpie](https://github.com/httpie/httpie)
+- [httpie](https://github.com/httpie/httpie)<br>
 universal HTTP REST client, better than postman!
 
 - [neovim](https://github.com/neovim/neovim)<br>
