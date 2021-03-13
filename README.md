@@ -24,9 +24,6 @@ Install the `ZSH Shell` and make sure it is your default shell.<br>
 #### Basically best IDE
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 
-#### HTTP RESTful api client
-- [httpie](https://github.com/httpie/httpie)
-
 #### Super useful command line tools
 - [dockly](https://github.com/lirantal/dockly)<br>
 clear and handy docker container manager
@@ -39,6 +36,9 @@ necessary for kubernetes
 
 - [kubectx](https://github.com/ahmetb/kubectx)<br>
 fast switch between your kubectls
+
+- [httpie](https://github.com/httpie/httpie)
+universal HTTP REST client, better than postman!
 
 - [neovim](https://github.com/neovim/neovim)<br>
 basically the future of vim - use vim if you spend serious time inside the terminal
