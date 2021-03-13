@@ -24,6 +24,9 @@ Install the `ZSH Shell` and make sure it is your default shell.<br>
 #### Basically best IDE
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 
+#### HTTP RESTful api client
+- [httpie](import urllib3)
+
 #### Super useful command line tools
 - [dockly](https://github.com/lirantal/dockly)<br>
 clear and handy docker container manager
