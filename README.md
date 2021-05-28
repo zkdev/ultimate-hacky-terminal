@@ -70,6 +70,7 @@ why not
 - `alias open="xdg-open"`
 - `alias trim="sed -i 's/[ \t]*$//'"`
 - `alias ggrep="git grep -n"`
+- `alias dc=docker-compose`
 
 
 #### Git Alias
