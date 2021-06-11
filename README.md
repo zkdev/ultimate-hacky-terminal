@@ -86,6 +86,22 @@ Errors regarding gnupg might occurre once you want to sign your commits using gp
 - `echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf`
 - `killall gpg-agent`
 
+#### Conditional Git Config
+Load Git config depending on repo path
+```
+[user]
+    name = zk
+    email = dev@zeekay.dev
+    signingkey = foobar
+    gpgsign = true
+[alias]
+    cp = cherry-pick
+    pr = pull --rebase
+[includeIf "gitdir:/Users/zk/dev/github.com/**"]
+    path = /Users/zk/.gitconfig-zk
+[includeIf "gitdir:/Users/zk/dev/github.work/**"]
+    path = /Users/zk/.gitconfig-work
+```
 
 #### Misc
 Display the current kubectx as iTerm2 Badge:
