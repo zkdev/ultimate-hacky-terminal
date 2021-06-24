@@ -61,6 +61,9 @@ personal recommendation when it comes to system monitoring
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes)<br>
 why not
 
+- [cpulimit](https://github.com/opsengine/cpulimit)<br>
+limit cpu usage of a process, helpful in diverse ways
+
 #### Alias
 - `alias k=kubectl`
 - `alias ktx=kubectx`
