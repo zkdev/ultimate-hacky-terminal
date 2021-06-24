@@ -55,6 +55,9 @@ handy json viewer
 - [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)<br>
 smart syntax highlighter for shell
 
+- [bpytop](https://github.com/aristocratos/bpytop)<br>
+personal recommendation when it comes to system monitoring
+
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes)<br>
 why not
 
