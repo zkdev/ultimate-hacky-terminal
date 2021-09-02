@@ -28,7 +28,7 @@ Install the `ZSH Shell` and make sure it is your default shell.<br>
 - [dockly](https://github.com/lirantal/dockly)<br>
 clear and handy docker container manager
 
-- [kubebox](https://github.com/astefanutti/kubebox)<br>
+- [k9s](https://github.com/derailed/k9s)<br>
 pretty much dockly for k8s
 
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)<br>
