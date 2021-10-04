@@ -1,14 +1,19 @@
-# Ultimate Hacky Terminal
+# Ultimate Hacky Terminal for Mac
 
 ## Installation
 First of all make sure all packages are up to date.<br>
 `sudo apt-get install update -y && sudo apt-get install upgrade -y`<br>
 
-#### iTerm2 ####
+#### Homebrew
+Install [Homebrew](https://brew.sh/), the "missing package manager for macOS"<br>
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+#### iTerm2
 Install [iTerm2](https://www.iterm2.com/)
 
-#### ZSH Shell ####
+#### ZSH Shell
 Install the `ZSH Shell` and make sure it is your default shell.<br>
+`brew install zsh`
 `chsh -s /bin/zsh`
 
 #### Install the `Oh-My-Zsh` Framework on top.
