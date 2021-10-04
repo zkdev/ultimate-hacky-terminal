@@ -75,9 +75,9 @@ limit cpu usage of a process, helpful in diverse ways
 #### Alias
 - `alias k=kubectl`
 - `alias ktx=kubectx`
-- `alias ll=ls -color -ahl`
+- `alias ll="ls -color -ahl"`
 - `alias ports="lsof -i -P -n | grep LISTEN"`
-- `alias nano=nvim` 
+- `alias nano=nvim`
 - `alias p3="python3"`
 - `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
 - `alias open="xdg-open"`
