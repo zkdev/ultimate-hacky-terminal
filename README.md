@@ -23,8 +23,8 @@ Install the `ZSH Shell` and make sure it is your default shell.<br>
 - [Zsh Auto Suggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 #### Install fonts and themes
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 #### Basically best IDE
 - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
