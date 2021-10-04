@@ -78,7 +78,6 @@ limit cpu usage of a process, helpful in diverse ways
 - `alias ll=ls -color -ahl`
 - `alias ports="lsof -i -P -n | grep LISTEN"`
 - `alias nano=nvim` 
-- `alias kubely="/path/to/kubebox"`
 - `alias p3="python3"`
 - `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
 - `alias open="xdg-open"`
