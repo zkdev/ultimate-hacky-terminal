@@ -57,6 +57,9 @@ useful search tool
 - [fx](https://github.com/antonmedv/fx)<br>
 handy json viewer
 
+- [jq](https://stedolan.github.io/jq/)<br>
+lightweight and flexible command-line JSON processor
+
 - [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)<br>
 smart syntax highlighter for shell
 
