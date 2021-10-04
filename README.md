@@ -89,7 +89,7 @@ limit cpu usage of a process, helpful in diverse ways
 
 #### Git Alias
 - `git config --global alias.cp cherry-pick`
-- `git config --global alias.pr 'pull --rebase`
+- `git config --global alias.pr pull --rebase`
 
 
 #### Fix gnupg
