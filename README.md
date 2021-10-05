@@ -1,8 +1,6 @@
 # Ultimate Hacky Terminal for Mac
 
-## Installation
-First of all make sure all packages are up to date.<br>
-`sudo apt-get install update -y && sudo apt-get install upgrade -y`<br>
+## I don't want to work without these
 
 #### Homebrew
 Install [Homebrew](https://brew.sh/), the "missing package manager for macOS"<br>
@@ -26,27 +24,12 @@ Install the `ZSH Shell` and make sure it is your default shell.<br>
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-#### Basically best IDE
-- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
-
-#### Super useful command line tools
-- [dockly](https://github.com/lirantal/dockly)<br>
-clear and handy docker container manager
-
-- [k9s](https://github.com/derailed/k9s)<br>
-pretty much dockly for k8s
-
+### Tools and Programs
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)<br>
 necessary for kubernetes
 
 - [kubectx](https://github.com/ahmetb/kubectx)<br>
 fast switch between your kubectls
-
-- [httpie](https://github.com/httpie/httpie)<br>
-universal HTTP REST client, better than postman!
-
-- [neovim](https://github.com/neovim/neovim)<br>
-basically the future of vim - use vim if you spend serious time inside the terminal
 
 - [vundle](https://github.com/VundleVim)<br>
 the vim package manager
@@ -54,17 +37,35 @@ the vim package manager
 - [fzf](https://github.com/junegunn/fzf)<br>
 useful search tool
 
-- [fx](https://github.com/antonmedv/fx)<br>
-handy json viewer
-
-- [jq](https://stedolan.github.io/jq/)<br>
-lightweight and flexible command-line JSON processor
+- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+basically best "IDE"
 
 - [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)<br>
 smart syntax highlighter for shell
 
 - [bpytop](https://github.com/aristocratos/bpytop)<br>
 personal recommendation when it comes to system monitoring
+
+
+## Suggestions
+
+- [dockly](https://github.com/lirantal/dockly)<br>
+clear and handy docker container manager
+
+- [k9s](https://github.com/derailed/k9s)<br>
+pretty much dockly for k8s
+
+- [httpie](https://github.com/httpie/httpie)<br>
+universal HTTP REST client, better than postman!
+
+- [neovim](https://github.com/neovim/neovim)<br>
+basically the future of vim - use vim if you spend serious time inside the terminal
+
+- [fx](https://github.com/antonmedv/fx)<br>
+handy json viewer
+
+- [jq](https://stedolan.github.io/jq/)<br>
+lightweight and flexible command-line JSON processor
 
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes)<br>
 why not
