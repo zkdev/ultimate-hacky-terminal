@@ -122,7 +122,12 @@ Display the current kubectx as iTerm2 Badge:
 - install `iTerm2 Shell Integration`: `wget https://iterm2.com/misc/install_shell_integration.sh`
 - to prevent misconfiguration adapt the script do directly detect `zsh` as your shell (line 10)
 - execute install script (`chmod +x ...`)
-- append `iterm2_print_user_vars() {iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)}` to `.zshrc` right after `source iterm_shell_integration`
+- append following function to `.zshrc` right after `source iterm_shell_integration`
+```sh
+function iterm2_print_user_vars() {
+  iterm2_set_user_var kubectx $(kubectl config current-context 2>/dev/null)
+}
+```
 - go to iTerm > Preferences > Profiles > General and set `\(user.kube_context)` as badge
 - I recommand to re-init `zsh` the the very end of `.zshrc`
 
