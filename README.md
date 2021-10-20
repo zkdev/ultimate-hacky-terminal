@@ -46,6 +46,9 @@ smart syntax highlighter for shell
 - [bpytop](https://github.com/aristocratos/bpytop)<br>
 personal recommendation when it comes to system monitoring
 
+- [dive](https://github.com/wagoodman/dive)<br>
+- tool for exploring a docker image and its layer contents
+
 
 ## Suggestions
 
