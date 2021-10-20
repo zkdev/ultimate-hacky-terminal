@@ -37,7 +37,7 @@ the vim package manager
 - [fzf](https://github.com/junegunn/fzf)<br>
 useful search tool
 
-- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)<br>
 basically best "IDE"
 
 - [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)<br>
@@ -47,7 +47,7 @@ smart syntax highlighter for shell
 personal recommendation when it comes to system monitoring
 
 - [dive](https://github.com/wagoodman/dive)<br>
-- tool for exploring a docker image and its layer contents
+tool for exploring a docker image and its layer contents
 
 
 ## Suggestions
