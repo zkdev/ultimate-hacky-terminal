@@ -88,6 +88,7 @@ limit cpu usage of a process, helpful in diverse ways
 - `alias trim="sed -i 's/[ \t]*$//'"`
 - `alias ggrep="git grep -n"`
 - `alias dc=docker-compose`
+- `alias pip=noglob pip`
 
 
 #### Git Alias
