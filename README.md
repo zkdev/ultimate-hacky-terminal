@@ -11,7 +11,7 @@ Install [iTerm2](https://www.iterm2.com/)
 
 #### ZSH Shell
 Install the `ZSH Shell` and make sure it is your default shell.<br>
-`brew install zsh`
+`brew install zsh`<br>
 `chsh -s /bin/zsh`
 
 #### Install the `Oh-My-Zsh` Framework on top.
