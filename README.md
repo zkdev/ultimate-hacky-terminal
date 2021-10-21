@@ -130,9 +130,10 @@ Display the current kubectx as iTerm2 Badge:
 ```sh
 function iterm2_print_user_vars() {
   iterm2_set_user_var kube_context $(kubectl config current-context 2>/dev/null)
+  iterm2_set_user_var kube_ns $(kubectl config view --minify --output 'jsonpath={..namespace}'; echo)
 }
 ```
-- go to iTerm > Preferences > Profiles > General and set `\(user.kube_context)` as badge
+- go to iTerm > Preferences > Profiles > General and set `\(user.kube_context)\n\(user.kube_ns)` as badge
 - I recommand to re-init `zsh` the the very end of `.zshrc`
 
 Install GnuCoreUtils with g-prefix
