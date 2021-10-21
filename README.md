@@ -49,6 +49,8 @@ personal recommendation when it comes to system monitoring
 - [dive](https://github.com/wagoodman/dive)<br>
 tool for exploring a docker image and its layer contents
 
+- [watch](https://gitlab.com/procps-ng/procps)<br>
+executes a program periodically, showing output fullscreen
 
 ## Suggestions
 
