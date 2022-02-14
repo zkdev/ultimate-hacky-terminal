@@ -139,4 +139,9 @@ function iterm2_print_user_vars() {
 - I recommand to re-init `zsh` the the very end of `.zshrc`
 
 Install GnuCoreUtils with g-prefix
-- `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep`
+- `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep`<br>
+If you want to use them without g-prefix, adjust your PATH and MANPATH (add before anything else).
+```bash
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+```
