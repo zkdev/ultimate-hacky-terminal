@@ -78,6 +78,9 @@ why not
 - [cpulimit](https://github.com/opsengine/cpulimit)<br>
 limit cpu usage of a process, helpful in diverse ways
 
+- [step-cli](https://smallstep.com/docs/step-cli/installation)<br>
+inspect JWT tokens
+
 #### Alias
 - `alias k=kubectl`
 - `alias ktx=kubectx`
