@@ -81,6 +81,9 @@ limit cpu usage of a process, helpful in diverse ways
 - [step-cli](https://smallstep.com/docs/step-cli/installation)<br>
 inspect JWT tokens
 
+- [colima](https://github.com/abiosoft/colima)<br>
+Container Runtime without unnecessary UI (I'm looking at you DockerDesktop)
+
 #### Alias
 - `alias k=kubectl`
 - `alias ktx=kubectx`
