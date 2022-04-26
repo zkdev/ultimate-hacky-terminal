@@ -126,6 +126,15 @@ Load Git config depending on repo path
     path = /Users/zk/.gitconfig-work
 ```
 
+### Macro
+
+#### Kill Docker
+```bash
+function whaling() {
+  ps ax|grep -i docker|egrep -iv 'grep|com.docker.vmnetd'|awk '{print $1}'|xargs kill
+}
+```
+
 #### Misc
 Display the current kubectx as iTerm2 Badge:
 - install `iTerm2 Shell Integration`: `wget https://iterm2.com/misc/install_shell_integration.sh`
