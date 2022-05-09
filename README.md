@@ -138,6 +138,13 @@ function whaling() {
 }
 ```
 
+#### Force restart Logitech Mouse Daemon
+```bash
+function mouse() {
+  ps ax|grep -i Options.app/Contents/Support/LogiMgrDaemon.app/Contents/MacOS/LogiMgrDaemon|egrep -iv 'grep --color=auto --exclude-dir'|awk '{print $1}'|xargs kill
+}
+```
+
 #### Misc
 Display the current kubectx as iTerm2 Badge:
 - install `iTerm2 Shell Integration`: `wget https://iterm2.com/misc/install_shell_integration.sh`
