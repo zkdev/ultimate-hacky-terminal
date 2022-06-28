@@ -85,6 +85,7 @@ inspect JWT tokens
 Container Runtime without unnecessary UI (I'm looking at you DockerDesktop)
 
 #### Alias
+- `alias sudo='sudo '`
 - `alias k=kubectl`
 - `alias ktx=kubectx`
 - `alias ll="ls -color -ahl"`
