@@ -146,6 +146,16 @@ function mouse() {
 }
 ```
 
+#### JWT Decoder
+```bash
+function jwtd() {
+    if [[ -x $(command -v jq) ]]; then
+         jq -R 'split(".") | .[0],.[1] | @base64d | fromjson' <<< "${1}"
+         echo "Signature: $(echo "${1}" | awk -F'.' '{print $3}')"
+    fi
+}
+```
+
 #### Misc
 Display the current kubectx as iTerm2 Badge:
 - install `iTerm2 Shell Integration`: `wget https://iterm2.com/misc/install_shell_integration.sh`
