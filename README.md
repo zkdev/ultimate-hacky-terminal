@@ -94,7 +94,6 @@ Container Runtime without unnecessary UI (I'm looking at you DockerDesktop)
 - `alias nano=nvim`
 - `alias p3="python3"`
 - `alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"`
-- `alias open="xdg-open"`
 - `alias trim="sed -i 's/[ \t]*$//'"`
 - `alias ggrep="git grep -n"`
 - `alias dc=docker-compose`
