@@ -99,6 +99,7 @@ Container Runtime without unnecessary UI (I'm looking at you DockerDesktop)
 - `alias ggrep="git grep -n"`
 - `alias dc=docker-compose`
 - `alias pip=noglob pip`
+- `alias prep-dive='sudo ln -sf ~/.colima/docker.sock /var/run/docker.sock'`
 
 
 #### Git Alias
