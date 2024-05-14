@@ -89,6 +89,7 @@ Container Runtime without unnecessary UI (I'm looking at you DockerDesktop)
 - `alias sudo='sudo '`
 - `alias k=kubectl`
 - `alias ktx=kubectx`
+- `alias kns=kubens`
 - `alias ll="ls -color -ahl"`
 - `alias ports="lsof -i -P -n | grep LISTEN"`
 - `alias nano=nvim`
